@@ -1,10 +1,10 @@
 import type { Agent, Category, Property, Testimonial } from "../types/site";
 
 export const heroImage =
-  "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=2200&q=90";
+  "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=2400&q=92";
 
 export const aboutImage =
-  "https://images.unsplash.com/photo-1604328698692-f76ea9498e76?auto=format&fit=crop&w=1400&q=90";
+  "https://images.unsplash.com/photo-1604328698692-f76ea9498e76?auto=format&fit=crop&w=1600&q=92";
 
 export const categories: Category[] = [
   { label: "Casas", count: 132, icon: "house", type: "Casa" },

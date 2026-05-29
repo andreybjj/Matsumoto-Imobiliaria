@@ -1,11 +1,11 @@
-import type { ReactElement } from "react";
+import type { ReactNode } from "react";
 
 interface IconProps {
   name: string;
   size?: number;
 }
 
-const paths: Record<string, ReactElement> = {
+const paths: Record<string, ReactNode> = {
   house: <path d="M4 11.5 12 5l8 6.5V21h-5v-6H9v6H4z" />,
   trees: <path d="M8 19v-5M16 19v-5M5 14h6L8 4zm8 0h6l-3-10z" />,
   sprout: <path d="M12 21v-8M12 13C7 13 5 9 5 5c5 0 7 4 7 8Zm0 0c5 0 7-4 7-8-5 0-7 4-7 8Z" />,
